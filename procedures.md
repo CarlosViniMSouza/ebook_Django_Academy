@@ -1,4 +1,4 @@
-0 - Django Architecture:
+Image - Django Architecture:
 
 <p align="center">
   <a href="https://www.github.com/CarlosViniMSouza">
@@ -15,7 +15,7 @@ print(django.get_version())
 
 For check django version installed(and if is installed).
 
-2 - If your installation is correct, this command has already been added to your PATH!
+2 - If your installation is correct, this command has already been added to your *PATH*!
 
 By just typing django-admin, the list of available commands, similar to:
 
@@ -70,13 +70,13 @@ django-admin startproject helloworld
 
 Explaining each file:
 
-° helloworld/settings.py: Very important file with the settings of our project, such as database settings. data, installed applications, static files configuration and a lot more.
+° *helloworld/settings.py*: Very important file with the settings of our project, such as database settings. data, installed applications, static files configuration and a lot more.
 
-° helloworld/urls.py: Routes configuration file (or URLConf). It's where we configure who responds to which URL.
+° *helloworld/urls.py*: Routes configuration file (or URLConf). It's where we configure who responds to which URL.
 
-° helloworld/wsgi.py: Here we configure the interface between the application server and our Django application.
+° *helloworld/wsgi.py*: Here we configure the interface between the application server and our Django application.
 
-° manage.py: Django-generated file that exposes important commands for maintaining our application.
+° *manage.py*: Django-generated file that exposes important commands for maintaining our application.
 
 5 - To test, go to the project's root folder and run the command: 
 
@@ -93,3 +93,5 @@ And so, this page will show for you:
     <img src="https://github.com/CarlosViniMSouza/ebook_Django_Academy/blob/master/images/djang_hello_world.png"/>
   </a>
 </p>
+
+These were the procedures needed to start the project.
