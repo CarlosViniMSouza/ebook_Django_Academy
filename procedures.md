@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://www.github.com/CarlosViniMSouza">
-    <img src="https://github.com/CarlosViniMSouza/ebook_Django_Academy"/>
+    <img src="https://github.com/CarlosViniMSouza/ebook_Django_Academy/blob/master/images/django_architecture.png"/>
   </a>
 </p>
 
@@ -67,3 +67,29 @@ django-admin startproject helloworld
  - wsgi.py
 - manage.py
 ```
+
+Explaining each file:
+
+° helloworld/settings.py: Very important file with the settings of our project, such as database settings. data, installed applications, static files configuration and a lot more.
+
+° helloworld/urls.py: Routes configuration file (or URLConf). It's where we configure who responds to which URL.
+
+° helloworld/wsgi.py: Here we configure the interface between the application server and our Django application.
+
+° manage.py: Django-generated file that exposes important commands for maintaining our application.
+
+5 - To test, go to the project's root folder and run the command: 
+
+```shell
+python manage.py runserver
+```
+
+Then access your browser and write: `http://localhost:8080`
+
+And so, this page will show for you:
+
+<p align="center">
+  <a href="https://www.github.com/CarlosViniMSouza">
+    <img src="https://github.com/CarlosViniMSouza/ebook_Django_Academy/blob/master/images/djang_hello_world.png"/>
+  </a>
+</p>
