@@ -70,13 +70,13 @@ django-admin startproject helloworld
 
 Explaining each file:
 
-° *helloworld/settings.py*: Very important file with the settings of our project, such as database settings. data, installed applications, static files configuration and a lot more.
+° **helloworld/settings.py**: Very important file with the settings of our project, such as database settings. data, installed applications, static files configuration and a lot more.
 
-° *helloworld/urls.py*: Routes configuration file (or URLConf). It's where we configure who responds to which URL.
+° **helloworld/urls.py**: Routes configuration file (or URLConf). It's where we configure who responds to which URL.
 
-° *helloworld/wsgi.py*: Here we configure the interface between the application server and our Django application.
+° **helloworld/wsgi.py**: Here we configure the interface between the application server and our Django application.
 
-° *manage.py*: Django-generated file that exposes important commands for maintaining our application.
+° **manage.py**: Django-generated file that exposes important commands for maintaining our application.
 
 5 - To test, go to the project's root folder and run the command: 
 
