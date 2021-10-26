@@ -1,3 +1,11 @@
+0 - Django Architecture:
+
+<p align="center">
+  <a href="https://www.github.com/CarlosViniMSouza">
+    <img src="https://github.com/CarlosViniMSouza/ebook_Django_Academy"/>
+  </a>
+</p>
+
 1 - write in terminal:
 
 ```shell
